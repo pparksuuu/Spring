@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 public class DemoApplication2 {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication2.class, args);
+//        SpringApplication.run(DemoApplication2.class, args);
 
     }
 }
