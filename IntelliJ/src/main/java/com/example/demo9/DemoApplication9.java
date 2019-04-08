@@ -1,15 +1,14 @@
-package com.example.demo7;
+package com.example.demo9;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
-@EnableAsync
-public class DemoApplication {
+public class DemoApplication9 {
 
     public static void main(String[] args) {
-//        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(DemoApplication9.class, args);
 
     }
 }
