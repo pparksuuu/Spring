@@ -43,6 +43,11 @@ public class Member {
 	public void setMemPhone3(String memPhone3) {
 		this.memPhone3 = memPhone3;
 	}
+	@Override
+	public String toString() {
+		return "Member [memId=" + memId + ", memPw=" + memPw + ", memMail=" + memMail + ", memPhone1=" + memPhone1
+				+ ", memPhone2=" + memPhone2 + ", memPhone3=" + memPhone3 + "]";
+	}
 	
 	
 }
